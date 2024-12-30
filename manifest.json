@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Kill Sticky",
+  "version": "1.0",
+  "description": "Remove sticky elements from the webpage with a right-click!",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
